@@ -3,13 +3,9 @@
     padding: 0;
     margin: 0;
 }
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+
+body {
+    background-color: #d9dcd6;
 }
 
 .header {
@@ -24,7 +20,7 @@
     font-size: 48px;
 }
 
-.header h1 .seo {
+.h1 .seo {
     color: #d9dcd6;
 }
 
@@ -38,7 +34,6 @@
 
 .header nav ul {
     list-style-type: none;
-    position: relative;
 }
 
 .header nav ul li {
@@ -53,6 +48,15 @@ a {
 
 p {
     font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .float-left {
